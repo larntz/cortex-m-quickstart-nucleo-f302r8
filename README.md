@@ -1,4 +1,10 @@
-# `cortex-m-quickstart`
+# `cortex-m-quickstart-nucleo-f302r8`
+
+> Modified template for the specific hardware ST NUCLEO-F302R8
+
+Forked from: https://github.com/rust-embedded/cortex-m-quickstart
+
+---
 
 > A template for building applications for ARM Cortex-M microcontrollers
 
