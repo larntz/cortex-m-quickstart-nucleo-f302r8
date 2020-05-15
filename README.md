@@ -1,6 +1,6 @@
 # `cortex-m-quickstart-nucleo-f302r8`
 
-> Modified template for the specific hardware ST NUCLEO-F302R8
+> Modified template for the specific hardware [ST NUCLEO-F302R8](https://www.st.com/content/st_com/en/products/evaluation-tools/product-evaluation-tools/mcu-mpu-eval-tools/stm32-mcu-mpu-eval-tools/stm32-nucleo-boards/nucleo-f302r8.html)
 
 Forked from: https://github.com/rust-embedded/cortex-m-quickstart
 
