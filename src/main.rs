@@ -9,9 +9,12 @@ extern crate panic_halt; // you can put a breakpoint on `rust_begin_unwind` to c
 
 use cortex_m::asm;
 use cortex_m_rt::entry;
+use stm32f3::stm32f302;
 
 #[entry]
 fn main() -> ! {
+    // remove the _ prefix and do something cool
+    let _peripherals = stm32f302::Peripherals::take().unwrap();
     asm::nop(); // To not have main optimize to abort in release mode, remove when you add code
 
     loop {
